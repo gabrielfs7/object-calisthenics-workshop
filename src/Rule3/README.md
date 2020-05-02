@@ -5,3 +5,15 @@ in order to avoid the [Primitive Obsession anti-pattern](http://wiki.c2.com/?Pri
 
 This is especially true for __Domain Driven Design__. 
 __DDD__ describes Value Objects like __Money__, or __Hour__ for instance.
+
+## Goals / Advantages
+
+- Decouple general logic.
+- Increase cohesion.
+- Reinforce Single responsibility principle.
+- Reinforce DRY.
+- Reinforce KISS.
+- Avoid discrepancy.
+- Avoid primitive Obsession anti-pattern.
+- Better readability.
+- Better maintainability.
