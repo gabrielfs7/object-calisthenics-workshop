@@ -1,0 +1,1 @@
+# Rule 3: Wrap all primitives and Strings

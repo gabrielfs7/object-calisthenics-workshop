@@ -1,0 +1,1 @@
+# Rule 5: One dot per line

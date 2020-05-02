@@ -1,0 +1,1 @@
+# Rule 2: Don’t use the ELSE keyword

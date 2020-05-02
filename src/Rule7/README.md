@@ -1,0 +1,1 @@
+# Rule 7: Keep all entities small

@@ -1,0 +1,1 @@
+# Rule 6: Don’t abbreviate

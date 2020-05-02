@@ -1,0 +1,1 @@
+# Rule 4: First class collections

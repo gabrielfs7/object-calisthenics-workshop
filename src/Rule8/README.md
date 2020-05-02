@@ -1,0 +1,1 @@
+# Rule 8: No classes with more than two instance variables
