@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Gsoares\ObjectCalisthenics\Rule1\GoodExample;
+namespace Gsoares\ObjectCalisthenics\Rule2\BadExample;
 
 use Exception;
 
@@ -39,9 +39,9 @@ class ProcessOrder
     {
         if (!$this->stockService->hasStock($item)) {
             throw new Exception('Insufficient Stock');
+        } else {
+            $this->stockService->decreaseStock($item);
         }
-
-        $this->stockService->decreaseStock($item);
     }
 
     private function getOrderById(int $orderId): object
@@ -50,8 +50,8 @@ class ProcessOrder
 
         if ($order) {
             return $order;
+        } else {
+            throw new Exception('Order does not exist');
         }
-
-        throw new Exception('Order does not exist');
     }
 }

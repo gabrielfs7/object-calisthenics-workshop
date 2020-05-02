@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Gsoares\ObjectCalisthenics\Rule1\GoodExample;
+namespace Gsoares\ObjectCalisthenics\Rule2\GoodExample;
 
 use Exception;
 
@@ -24,7 +24,7 @@ class ProcessOrder
         }
     }
 
-    private function processOrder(int $orderId): void
+    private function processOrder(int $orderId)
     {
         $order = $this->getOrderById($orderId);
 
@@ -37,7 +37,7 @@ class ProcessOrder
 
     private function processItem(object $item): void
     {
-        if (!$this->stockService->hasStock($item)) {
+        if ($this->stockService->hasStock($item)) {
             throw new Exception('Insufficient Stock');
         }
 

@@ -22,16 +22,16 @@ class ProcessOrder
         foreach ($orderIds as $orderId) {
             $order = $this->orderRepository->find($orderId);
 
-            if ($order) {
-                foreach ($order->getItems() as $item) {
-                    if ($this->stockService->hasStock($item)) {
-                        $this->stockService->decreaseStock($item);
-                    } else {
-                        throw new Exception('Insufficient Stock');
-                    }
-                }
-            } else {
+            if (!$order) {
                 throw new Exception('Order does not exist');
+            }
+
+            foreach ($order->getItems() as $item) {
+                if (!$this->stockService->hasStock($item)) {
+                    throw new Exception('Insufficient Stock');
+                }
+
+                $this->stockService->decreaseStock($item);
             }
 
             $this->shippingService->ship($order);
