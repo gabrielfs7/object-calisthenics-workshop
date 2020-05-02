@@ -1,6 +1,6 @@
 # Object Calisthenics Workshop
 
-Sample PHP code to demonstrate Object calisthenics
+Sample PHP code to demonstrate Object calisthenics though a hands-on workshop.
 
 ## The 9 Rules
 
@@ -14,6 +14,39 @@ Sample PHP code to demonstrate Object calisthenics
 - [Rule 8: No classes with more than two instance variables](src/Rule8)
 - [Rule 9: No getters/setters/properties](src/Rule9)
 
+## Exercises
+
+The go is fix all the error reported by the ObjectCalisthenics rule set:
+
+### 1. Generate the report:
+
+```shell script
+bin/phpcs --standard=vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/ruleset.xml src
+```
+
+#### Extra - Validate using PHPMd
+
+You can also validate your code according to PHPMD to see how calisthenics can decrease code complexity:
+
+- [Code Size](https://phpmd.org/rules/codesize.html)
+- [Clean Code](https://phpmd.org/rules/cleancode.html)
+- [Controversial](https://phpmd.org/rules/controversial.html)
+- [Design](https://phpmd.org/rules/design.html)
+- [Naming](https://phpmd.org/rules/naming.html)
+- [Unused code](https://phpmd.org/rules/unused.html)
+
+```shell script
+bin/phpmd src ansi phpmd-ruleset.xml --suffixes php
+```  
+
+### 2. Refactor the code
+
+Now you need to refactor the code in order to clear the object calisthenics
+
+### 3. Go to step number one
+
+Go to step number 1 until you do not get any errors.
+  
 ## References
 
 The knowledge to create this code examples and about Object Calisthenics 

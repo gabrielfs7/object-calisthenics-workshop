@@ -33,7 +33,7 @@
       "bin/phpcbf --standard=PSR12 src"
     ],
     "phpmd": [
-      "bin/phpmd src ansi ruleset.xml --suffixes php"
+      "bin/phpmd src ansi phpmd-ruleset.xml --suffixes php"
     ]
   }
 }
