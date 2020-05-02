@@ -1,0 +1,31 @@
+{
+  "name": "gsoares/object-calisthenics-workshop",
+  "description": "A simple API to handle questions",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Felipe Soares",
+      "email": "gabrielfs7@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gsoares\\ObjectCalisthenics\\": "src"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5"
+  },
+  "scripts": {
+    "validate-code-standards": [
+      "bin/phpcs --standard=PSR12 src"
+    ]
+  }
+}
