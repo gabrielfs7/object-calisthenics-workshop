@@ -13,3 +13,13 @@ Sample PHP code to demonstrate Object calisthenics
 - [Rule 7: Keep all entities small](src/Rule7)
 - [Rule 8: No classes with more than two instance variables](src/Rule8)
 - [Rule 9: No getters/setters/properties](src/Rule9)
+
+## References
+
+The knowledge to create this code examples and about Object Calisthenics 
+is fruit of my working experience as software developer and based the 
+references bellow. To the authors, thank you for all the valuable content. 
+
+- William Durand: https://williamdurand.fr/2013/06/03/object-calisthenics/  
+- Thought Works Anthology - Technology Innovation: https://www.amazon.com/ThoughtWorks-Anthology-Technology-Innovation-Programmers/dp/193435614X
+- Jeff Bay: https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf
