@@ -2,6 +2,8 @@
 
 Sample PHP code to demonstrate Object calisthenics though a hands-on workshop.
 
+![Olympic Athlete](assets/images/olympic-athlete.png)
+
 ## The 9 Rules
 
 - [Rule 1: One level of indentation per method](src/Rule1) 
@@ -56,3 +58,7 @@ references bellow. To the authors, thank you for all the valuable content.
 - William Durand: https://williamdurand.fr/2013/06/03/object-calisthenics/  
 - Thought Works Anthology - Technology Innovation: https://www.amazon.com/ThoughtWorks-Anthology-Technology-Innovation-Programmers/dp/193435614X
 - Jeff Bay: https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf
+
+### Image sources:
+
+- Olympic Athlete: https://cdn.shopify.com/s/files/1/0054/0488/5063/files/Olyra-Wisdom-Treats-Blog-Diet-Of-Athletes-In-Ancient-Greece-1_large.png?v=1557398665
