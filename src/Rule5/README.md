@@ -19,6 +19,7 @@ This is a good way to apply the The [Law of Demeter](https://en.wikipedia.org/wi
 - Increase maintainability.
 - Increase testability.
 - Reinforce Single Responsibility Principle.
+- Reinforce KISS Principle.
 - Reinforce last Knowledge principle.
 - Increase cohesion.
 - Decrease coupling.
