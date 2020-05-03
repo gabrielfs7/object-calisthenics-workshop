@@ -13,6 +13,6 @@ without scrolling, which makes them easier to grasp quickly.
 - :white_check_mark: Reinforces Single Responsibility Principle.
 - :white_check_mark: Reinforces DRY Principle.
 - :white_check_mark: Decreases Coupling.
-- :white_check_mark: Increases Coupling.
+- :white_check_mark: Increases Cohesion.
 - :white_check_mark: Improves Testability.
 - :white_check_mark: Improves Readability.
