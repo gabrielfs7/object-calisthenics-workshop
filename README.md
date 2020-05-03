@@ -4,7 +4,32 @@ Sample PHP code to demonstrate Object calisthenics though a hands-on workshop.
 
 ![Olympic Athlete](assets/images/olympic-athlete.png)
 
-## The 9 Rules
+> __Calisthenics__: Greek therm used to describe gymnastics exercises done by olympic athletes.   
+
+The term `Object-Calisthenics` was coined by `Jeff Bay` in the book `Thought Works Anthology` (2008)
+as a group of exercises that can help programmers to write better object-oriented code.
+
+By doing the exercises it helps you increase code:
+
+- :white_check_mark: Readability.
+- :white_check_mark: Maintainability.
+- :white_check_mark: Comprehensibility.
+- :white_check_mark: Flexibility.
+- :white_check_mark: Testability.
+
+## :warning: Important consideration
+
+Besides Object-Calisthenics are very good exercises and definitely will help you improve your code quality, 
+they are not ultimate rules that must be followed strictly, but they will for sure educate you and make you reason
+about the code while writing it.
+
+After doing the exercises and being aware about the benefits, naturally you will be uncomfortable when 
+not applying them.
+
+You can adapt/ignore rules according to your organization, but give it a in a few projects before  taking 
+a decision of not using it. As humans we tend to block ourselves every time leaving a comfort zone.   
+
+## The 9 Rules of Object-Calisthenics
 
 - [Rule 1: One level of indentation per method](src/Rule1) 
 - [Rule 2: Don’t use the ELSE keyword](src/Rule2)
