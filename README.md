@@ -55,9 +55,10 @@ The knowledge to create this code examples and about Object Calisthenics
 is fruit of my working experience as software developer and based the 
 references bellow. To the authors, thank you for all the valuable content. 
 
-- William Durand: https://williamdurand.fr/2013/06/03/object-calisthenics/  
-- Thought Works Anthology - Technology Innovation: https://www.amazon.com/ThoughtWorks-Anthology-Technology-Innovation-Programmers/dp/193435614X
+- William Durand: https://williamdurand.fr/2013/06/03/object-calisthenics/
+- Guilherme Blanco: https://www.slideshare.net/guilhermeblanco/object-calisthenics-applied-to-php  
 - Jeff Bay: https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf
+- Thought Works Anthology - Technology Innovation: https://www.amazon.com/ThoughtWorks-Anthology-Technology-Innovation-Programmers/dp/193435614X
 
 ### Image sources:
 
