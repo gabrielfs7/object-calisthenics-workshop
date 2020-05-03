@@ -7,20 +7,20 @@ namespace Gsoares\ObjectCalisthenics\Rule7\GoodExample;
 class Customer
 {
     /** @var int */
-    private $id;
+    private $internalId;
 
     /** @var Name */
     private $name;
 
-    public function __construct(int $id, Name $name)
+    public function __construct(int $internalId, Name $name)
     {
-        $this->id = $id;
+        $this->internalId = $internalId;
         $this->name = $name;
     }
 
-    public function getId(): int
+    public function getInternalId(): int
     {
-        return $this->id;
+        return $this->internalId;
     }
 
     public function getName(): Name

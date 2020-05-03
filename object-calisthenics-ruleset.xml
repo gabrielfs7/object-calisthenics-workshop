@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<ruleset name="ObjectCalisthenics">
+<ruleset name="object-calisthenics">
     <!-- Rule 1: Only X indentation level per function/method (with default values) -->
-    <rule ref="ObjectCalisthenics.Metrics.MaxNestingLevel">
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/Metrics/MaxNestingLevelSniff.php">
         <properties>
             <property name="maxNestingLevel" value="2"/>
         </properties>
     </rule>
 
     <!-- Rule 2: There is no "else" -->
-    <rule ref="ObjectCalisthenics.ControlStructures.NoElse"/>
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/ControlStructures/NoElseSniff.php"/>
 
     <!-- Rule 5: Only one object operator (->) per line (with default values) -->
-    <rule ref="ObjectCalisthenics.CodeAnalysis.OneObjectOperatorPerLine">
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/CodeAnalysis/OneObjectOperatorPerLineSniff.php">
         <properties>
             <property name="variablesHoldingAFluentInterface" type="array" value="$queryBuilder,$containerBuilder"/>
             <property name="methodsStartingAFluentInterface" type="array" value="createQueryBuilder"/>
@@ -20,7 +20,7 @@
     </rule>
 
     <!-- Rule 6: Do not abbreviate (with default values) -->
-    <rule ref="ObjectCalisthenics.NamingConventions.ElementNameMinimalLength">
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/NamingConventions/ElementNameMinimalLengthSniff.php">
         <properties>
             <property name="minLength" value="3"/>
             <property name="allowedShortNames" type="array" value="i,id,to,up"/>
@@ -28,28 +28,28 @@
     </rule>
 
     <!-- Rule 7: Keep your classes small (with default values) -->
-    <rule ref="ObjectCalisthenics.Files.ClassTraitAndInterfaceLength">
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/Files/ClassTraitAndInterfaceLengthSniff.php">
         <properties>
-            <property name="maxLength" value="200"/>
+            <property name="maxLength" value="50"/>
         </properties>
     </rule>
-    <rule ref="ObjectCalisthenics.Files.FunctionLength">
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/Files/FunctionLengthSniff.php">
         <properties>
             <property name="maxLength" value="20"/>
         </properties>
     </rule>
-    <rule ref="ObjectCalisthenics.Metrics.PropertyPerClassLimit">
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/Metrics/PropertyPerClassLimitSniff.php">
         <properties>
             <property name="maxCount" value="10"/>
         </properties>
     </rule>
-    <rule ref="ObjectCalisthenics.Metrics.MethodPerClassLimit">
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/Metrics/MethodPerClassLimitSniff.php">
         <properties>
             <property name="maxCount" value="10"/>
         </properties>
     </rule>
 
     <!-- Rule 9: Do not Use Getters and Setters -->
-    <rule ref="ObjectCalisthenics.Classes.ForbiddenPublicProperty"/>
-    <rule ref="ObjectCalisthenics.NamingConventions.NoSetter"/>
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/Classes/ForbiddenPublicPropertySniff.php"/>
+    <rule ref="vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/Sniffs/NamingConventions/NoSetterSniff.php"/>
 </ruleset>
