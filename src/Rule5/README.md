@@ -15,11 +15,11 @@ This is a good way to apply the The [Law of Demeter](https://en.wikipedia.org/wi
 
 ## Goals / Advantages
 
-- Increase readability.
-- Increase maintainability.
-- Increase testability.
-- Reinforce Single Responsibility Principle.
-- Reinforce KISS Principle.
-- Reinforce last Knowledge principle.
-- Increase cohesion.
-- Decrease coupling.
+:white_check_mark: Increase readability.
+:white_check_mark: Increase maintainability.
+:white_check_mark: Increase testability.
+:white_check_mark: Reinforce Single Responsibility Principle.
+:white_check_mark: Reinforce KISS Principle.
+:white_check_mark: Reinforce last Knowledge principle.
+:white_check_mark: Increase cohesion.
+:white_check_mark: Decrease coupling.

@@ -12,10 +12,10 @@ add more responsibilities, different behaviors, increase tests costs, code maint
 
 ## Goals / Advantages
 
-- Reinforce Open/Closed Principle.
-- Reinforce Polymorphism.
-- Better readability.
-- Better maintainability.
-- Increase cohesion.
-- Reinforce Single responsibility principle.
-- Reinforce KISS.
+:white_check_mark: Reinforce Open/Closed Principle.
+:white_check_mark: Reinforce Polymorphism.
+:white_check_mark: Better readability.
+:white_check_mark: Better maintainability.
+:white_check_mark: Increase cohesion.
+:white_check_mark: Reinforce Single responsibility principle.
+:white_check_mark: Reinforce KISS.

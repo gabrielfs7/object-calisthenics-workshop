@@ -14,4 +14,4 @@ ship() so that clients call order.ship() – a simple and clear representation o
 
 ## Goals / Advantages
 
-:v: Expose weak domain.
+:white_check_mark: Expose weak domain.

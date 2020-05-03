@@ -7,8 +7,8 @@ and `multiple responsibilities` done in a single place.
 
 ## Goals / Advantages
 
-- Decrease coupling.
-- Increase cohesion.
-- Better readability.
-- Better maintainability.
-- Reinforce Single responsibility principle.
+:white_check_mark: Decrease coupling.
+:white_check_mark: Increase cohesion.
+:white_check_mark: Better readability.
+:white_check_mark: Better maintainability.
+:white_check_mark: Reinforce Single responsibility principle.

@@ -11,11 +11,11 @@ element of the group.
 
 ## Goals / Advantages
 
-- More expressive classes.
-- Simpler code.
-- Self-documented objects.
-- Reinforce Single Responsibility.
-- Increase cohesion.
-- Decrease coupling.
-- Better readability.
-- Better maintainability.
+:white_check_mark: More expressive classes.
+:white_check_mark: Simpler code.
+:white_check_mark: Self-documented objects.
+:white_check_mark: Reinforce Single Responsibility.
+:white_check_mark: Increase cohesion.
+:white_check_mark: Decrease coupling.
+:white_check_mark: Better readability.
+:white_check_mark: Better maintainability.

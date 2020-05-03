@@ -8,12 +8,12 @@ __DDD__ describes Value Objects like __Money__, or __Hour__ for instance.
 
 ## Goals / Advantages
 
-- Decouple general logic.
-- Increase cohesion.
-- Reinforce Single responsibility principle.
-- Reinforce DRY.
-- Reinforce KISS.
-- Avoid discrepancy.
-- Avoid primitive Obsession anti-pattern.
-- Better readability.
-- Better maintainability.
+:white_check_mark: Decouple general logic.
+:white_check_mark: Increase cohesion.
+:white_check_mark: Reinforce Single responsibility principle.
+:white_check_mark: Reinforce DRY.
+:white_check_mark: Reinforce KISS.
+:white_check_mark: Avoid discrepancy.
+:white_check_mark: Avoid primitive Obsession anti-pattern.
+:white_check_mark: Better readability.
+:white_check_mark: Better maintainability.
