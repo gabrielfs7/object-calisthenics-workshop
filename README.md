@@ -43,15 +43,25 @@ it completely. As humans we tend to block ourselves every time leaving a comfort
 
 ## Exercises
 
-The goal is to fix all the error reported by the ObjectCalisthenics rule set:
+The goal is to fix all the errors reported by the ObjectCalisthenics rule set:
 
-### 1. Generate the report:
+### 1. Check current errors:
 
 ```shell script
-bin/phpcs --standard=vendor/object-calisthenics/phpcs-calisthenics-rules/src/ObjectCalisthenics/ruleset.xml src
+bin/phpcs src --standard=object-calisthenics-ruleset.xml
 ```
+#### Rules not validated
 
-#### Extra - Validate using PHPMd
+Some rules are not automatically validated, so you need to check by itself, with others or sharing with me.
+
+- :x: 3. Wrap Primitive Types and Strings - Since PHP 7, you can use define(strict_types=1) and scalar type hints. 
+  For other cases, e.g. email, you can deal with that in your Domain via Value Objects.
+- :x: 4. Use First Class Collections - This rule makes sense, yet is too strict to be useful in practice. 
+  Even our code didn't pass it at all.
+- :x: 8. Do Not Use Classes With More Than Two Instance Variables - This depends on individual domain of each project. 
+  It doesn't make sense to make a rule for that.
+
+#### Extra - Validate using PHPMD
 
 You can also validate your code according to PHPMD to see how calisthenics can decrease code complexity:
 
@@ -64,7 +74,7 @@ You can also validate your code according to PHPMD to see how calisthenics can d
 
 ```shell script
 bin/phpmd src ansi phpmd-ruleset.xml --suffixes php
-```  
+```
 
 ### 2. Refactor the code
 
