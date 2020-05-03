@@ -7,6 +7,6 @@ This rules is partially related to [Domain Driven Design](https://github.com/ddd
 
 ## Goals / Advantages
 
-:white_check_mark: Reinforce Least Privilege principle.
-:white_check_mark: More expressive classes.
-:white_check_mark: Simpler code.
+- :white_check_mark: Reinforce Least Privilege principle.
+- :white_check_mark: More expressive classes.
+- :white_check_mark: Simpler code.
