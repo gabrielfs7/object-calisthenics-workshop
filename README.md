@@ -26,8 +26,8 @@ about the code while writing it.
 After doing the exercises and being aware about the benefits, naturally you will be uncomfortable when 
 not applying them.
 
-You can adapt/ignore rules according to your organization, but give it a in a few projects before  taking 
-a decision of not using it. As humans we tend to block ourselves every time leaving a comfort zone.   
+You can adapt/ignore rules according to your organization, but give it a try in a few projects before avoiding 
+it completely. As humans we tend to block ourselves every time leaving a comfort zone.   
 
 ## The 9 Rules of Object-Calisthenics
 
@@ -43,7 +43,7 @@ a decision of not using it. As humans we tend to block ourselves every time leav
 
 ## Exercises
 
-The go is fix all the error reported by the ObjectCalisthenics rule set:
+The goal is to fix all the error reported by the ObjectCalisthenics rule set:
 
 ### 1. Generate the report:
 
