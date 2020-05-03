@@ -52,7 +52,7 @@ bin/phpcs src --standard=object-calisthenics-ruleset.xml
 ```
 #### Rules not validated
 
-Some rules are not automatically validated, so you need to check by itself, with others or sharing with me.
+Some rules are not automatically validated, so you need to check by yourself, with others or sharing with me.
 
 - :x: 3. Wrap Primitive Types and Strings - Since PHP 7, you can use define(strict_types=1) and scalar type hints. 
   For other cases, e.g. email, you can deal with that in your Domain via Value Objects.
@@ -83,6 +83,20 @@ Now you need to refactor the code in order to clear the object calisthenics
 ### 3. Go to step number one
 
 Go to step number 1 until you do not get any errors.
+
+## Requirements
+
+- PHP 7.2+
+- [Composer](https://getcomposer.org/)
+
+## Installation
+
+1. Download the source code.
+2. Run composer
+
+```shell script
+composer install
+```
   
 ## References
 
