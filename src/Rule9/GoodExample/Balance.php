@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Gsoares\ObjectCalisthenics\Rule9\GoodExample;
 
+use Exception;
+
 class Balance
 {
     /** @var float */
@@ -22,7 +24,7 @@ class Balance
     public function subtractAmount(float $amount): void
     {
         if ($this->amount < $amount) {
-            throw new Exception('Balance cannot be negative');
+            throw new Exception('Not enough balance');
         }
 
         $this->amount += $amount;

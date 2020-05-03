@@ -15,11 +15,7 @@ class Address
     /** @var string */
     private $postalCode;
 
-    public function __construct(
-        string $street,
-        string $country,
-        string $postalCode
-    )
+    public function __construct(string $street, string $country, string $postalCode)
     {
         $this->street = $street;
         $this->country = $country;

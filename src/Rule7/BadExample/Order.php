@@ -35,8 +35,7 @@ class Order
         string $shippingStreet,
         string $shippingCountry,
         string $shippingPostalCode
-    )
-    {
+    ) {
         $this->items = $items;
         $this->customerId = $customerId;
         $this->customerFirstName = $customerFirstName;

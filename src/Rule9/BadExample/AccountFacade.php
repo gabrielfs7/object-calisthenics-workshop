@@ -17,7 +17,7 @@ class AccountFacade
         $balance = $this->balanceService->getBalance($accountId);
 
         if ($balance->getAmount() < $amount) {
-            throw new Exception('Deposit amount must be higher than 0');
+            throw new Exception('Not enough balance');
         }
 
         $balance->setAmount($balance->getAmount() + $amount);
