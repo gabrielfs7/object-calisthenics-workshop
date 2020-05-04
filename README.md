@@ -54,12 +54,9 @@ bin/phpcs src --standard=object-calisthenics-ruleset.xml
 
 Some rules are not automatically validated, so you need to check by yourself, with others or sharing with me.
 
-- :x: 3. Wrap Primitive Types and Strings - Since PHP 7, you can use define(strict_types=1) and scalar type hints. 
-  For other cases, e.g. email, you can deal with that in your Domain via Value Objects.
-- :x: 4. Use First Class Collections - This rule makes sense, yet is too strict to be useful in practice. 
-  Even our code didn't pass it at all.
-- :x: 8. Do Not Use Classes With More Than Two Instance Variables - This depends on individual domain of each project. 
-  It doesn't make sense to make a rule for that.
+- :x: 3. Wrap Primitive Types and Strings.
+- :x: 4. Use First Class Collections.
+- :x: 8. Do Not Use Classes With More Than Two Instance Variables.
 
 #### Extra - Validate using PHPMD
 
